@@ -8,10 +8,10 @@ def c(a, b):
 
 def ab(x):
     if x > 0:
-        square = math.sqrt(x)
-        cubic = x ** (1/3)
-        result = square + cubic
-        print(f"Сума квадратного і кубічного коренів числа {x} = {result:.2f}")
+        sqr = math.sqrt(x)
+        cub = x ** (1/3)
+        rlt = sqr + cub
+        print(f"Сума квадратного і кубічного коренів числа {x} = {rlt:.2f}")
     else:
         print("Введіть додатне число для обчислення коренів.")
 
